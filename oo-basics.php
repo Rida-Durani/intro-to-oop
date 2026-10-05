@@ -38,7 +38,12 @@ class Student
 
 $exampleStudent = new Student("u0123456", "John", "Smith");
 var_dump($exampleStudent);
+echo $exampleStudent->getStudentDetails();
 
+$studentObject = new Student();
+$studentObject->studentNum = $studentNum;
+	 	$studentObject->firstName = $firstName;
+	 	$studentObject->lastName = $lastName;
 /*
 1) The code above declares a simple Student class. It then creates a Student object and dumps the details of the object. 
 a) Open this in a browser to check it works
